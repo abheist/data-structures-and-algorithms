@@ -1,7 +1,7 @@
 from typing import List
 
 
-def even_odd(A: List[int]) -> None:
+def even_odd(A: List[int]) -> List[int]:
     next_even, next_odd = 0, len(A) - 1
     while next_even < next_odd:
         print('running')
