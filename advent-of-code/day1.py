@@ -9,6 +9,7 @@ def calorie_counting():
     calories = []
     file = open('advent-of-code/input.txt', 'r')
     lines = file.readlines()
+    file.close()
     person_calories = 0
     for line in lines:
         if line == "\n":
